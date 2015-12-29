@@ -1,0 +1,582 @@
+TAppleAC97AudioIntelICH
+v7
+r0
+t473089858.511654
+cCheck dependencies
+cPreprocess /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Preprocessed-Info.plist AppleAC97AudioIntelICH-Info.plist
+cProcessInfoPlistFile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/AppleAC97AudioIntelICH.kext/Contents/Info.plist /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Preprocessed-Info.plist
+cCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/Version.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH_info.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH normal x86_64
+cCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/Version.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c normal i386 c com.apple.compilers.gcc.4_2
+cCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH_info.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c normal i386 c com.apple.compilers.gcc.4_2
+cLd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH normal i386
+cCreateUniversalBinary /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/AppleAC97AudioIntelICH.kext/Contents/MacOS/AppleAC97AudioIntelICH normal "x86_64 i386"
+cTouch /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/AppleAC97AudioIntelICH.kext
+cCodeSign /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/AppleAC97AudioIntelICH.kext
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D5A274300000000000000EE
+t1297753923
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOBufferMemoryDescriptor.h
+c000000004CC3DE660000000000003246
+t1287904870
+s12870
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOFilterInterruptEventSource.h
+c000000004CC3DE670000000000001FA6
+t1287904871
+s8102
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOLib.h
+c000000004CC3DE670000000000004DDF
+t1287904871
+s19935
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOMessage.h
+c000000004CC3DE670000000000000DE0
+t1287904871
+s3552
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOService.h
+c000000004CC3DE67000000000001F49D
+t1287904871
+s128157
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOTypes.h
+c000000004CC3DE6800000000000016C8
+t1287904872
+s5832
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/pci/IOPCIDevice.h
+c000000004CC3E8040000000000008708
+t1287907332
+s34568
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/kern/assert.h
+c000000004CC3DE640000000000000C13
+t1287904868
+s3091
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/OSByteOrder.h
+c000000004CC3DE66000000000000298B
+t1287904870
+s10635
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSObject.h
+c000000004CC3DE740000000000003C1D
+t1287904884
+s15389
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp
+c0000000056828C17000000000000B435
+t1451396119
+s46133
+i<IOKit/IOLib.h>
+i<libkern/OSByteOrder.h>
+i"AppleAC97AudioIntelICH.h"
+i"IOAC97Debug.h"
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.h
+c0000000050260CF20000000000002AFA
+t1344670962
+s11002
+i<IOKit/pci/IOPCIDevice.h>
+i<IOKit/IOBufferMemoryDescriptor.h>
+i<IOKit/IOFilterInterruptEventSource.h>
+i"IOAC97Controller.h"
+i"IOAC97CodecDevice.h"
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/IOAC97Family/IOAC97AudioConfig.h
+c0000000050260CF200000000000011B7
+t1344670962
+s4535
+i<libkern/c++/OSObject.h>
+i<IOKit/IOBufferMemoryDescriptor.h>
+i"IOAC97Types.h"
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/IOAC97Family/IOAC97CodecDevice.h
+c0000000050260CF20000000000000B8F
+t1344670962
+s2959
+i<IOKit/IOService.h>
+i"IOAC97Types.h"
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/IOAC97Family/IOAC97Controller.h
+c0000000050260CF20000000000000E94
+t1344670962
+s3732
+i<IOKit/IOService.h>
+i"IOAC97Types.h"
+i"IOAC97AudioConfig.h"
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/IOAC97Family/IOAC97Debug.h
+c0000000050260CF20000000000000661
+t1344670962
+s1633
+i<kern/assert.h>
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/IOAC97Family/IOAC97Types.h
+c0000000050260CF20000000000002293
+t1344670962
+s8851
+i<IOKit/IOTypes.h>
+i<IOKit/IOMessage.h>
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c
+c0000000056828FBE00000000000001AF
+t1451397054
+s431
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_vers.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c
+c0000000056828FBE00000000000000F4
+t1451397054
+s244
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH
+t1451397058
+s42204
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH.LinkFileList
+c0000000056828FBE000000000000013B
+t1451397054
+s315
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH.o
+t1451397058
+s40332
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH_info.o
+t1451397058
+s580
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH_vers.o
+t2
+s0
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/Version.o
+t1451397058
+s492
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/AppleAC97AudioIntelICH
+t2
+s0
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/AppleAC97AudioIntelICH.LinkFileList
+c0000000056828B620000000000000139
+t1451395938
+s313
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/AppleAC97AudioIntelICH.o
+t2
+s0
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/AppleAC97AudioIntelICH_info.o
+t1451395942
+s580
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/Version.o
+t1451395942
+s492
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH
+t1451397057
+s43456
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH.LinkFileList
+c0000000056828FBE000000000000013F
+t1451397054
+s319
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH.o
+t1451397057
+s42276
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH_info.o
+t1451397055
+s768
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH_vers.o
+t2
+s0
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/Version.o
+t1451397055
+s636
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Preprocessed-Info.plist
+t1451397055
+s3952
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/AppleAC97AudioIntelICH.kext
+t1451397058
+s102
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/AppleAC97AudioIntelICH.kext/Contents/Info.plist
+t1451397055
+s4348
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/AppleAC97AudioIntelICH.kext/Contents/MacOS/AppleAC97AudioIntelICH
+t1451397058
+s91356
+
+NAppleAC97AudioIntelICH-Info.plist
+c00000000568289960000000000000F6E
+t1451395478
+s3950
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies473089854#473089854#0(0"0(0#1#0"2519298544#0"0#
+
+CCodeSign /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/AppleAC97AudioIntelICH.kext
+s473089858.277918
+e473089858.511556
+r1
+xCodeSign
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/AppleAC97AudioIntelICH.kext
+lSLF07#2@50"CodeSign build/Release/AppleAC97AudioIntelICH.kext473089858#473089858#0(0"0(0#0#97"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/AppleAC97AudioIntelICH.kext2519298544#244"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    /usr/bin/codesign -f -s "Developer ID Application: Andy Vandijck (GSF3NR4NQ5)" /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/AppleAC97AudioIntelICH.kext0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s473089855.299998
+e473089858.145444
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp: In function '(static destructors for /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp)':
+o/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp:1678: note: file /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH.gcda not found, execution counts estimated
+lSLF07#2@113"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp473089855#473089858#0(582"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp: In function '(static destructors for /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp)':/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp:1678: note: file /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH.gcda not found, execution counts estimated1(13@210"File /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH.gcda not found, execution counts estimated473089856#253#329#0(6@105"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp473088919#1678#0#1678#0#0"0(0#0#105"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp2519298544#1621"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fno-exceptions -fno-rtti -fcheck-new -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -fapple-kext -funroll-loops -ftree-vectorize -msse3 -fprofile-use -mmacosx-version-min=10.6 -fopenmp -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/AppleAC97AudioIntelICH.hmap -Wno-unknown-pragmas -Wno-four-char-constants -Wmost -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/i386 -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources -Wno-format -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH.o0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s473088699.647152
+e473088700.970735
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+o/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp: In member function 'virtual void AppleAC97AudioIntelICH::resetACLink(IOOptionBits)':
+o/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp:695: warning: 'IOPanic' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOLib.h:338)
+o/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp:695: warning: 'IOPanic' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOLib.h:338)
+lSLF07#2@113"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp473088699#473088700#0(708"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp: In member function 'virtual void AppleAC97AudioIntelICH::resetACLink(IOOptionBits)':/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp:695: warning: 'IOPanic' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOLib.h:338)/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp:695: warning: 'IOPanic' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOLib.h:338)2(22@137"'IOPanic' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOLib.h:338)473088700#192#258#0(6@105"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp366363762#695#0#695#0#33"'*' is deprecated (declared at *)0(22@137"'IOPanic' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOLib.h:338)473088700#450#258#0(6@105"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp366363762#695#0#695#0#33"'*' is deprecated (declared at *)0(0#0#105"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp2519298544#1632"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fno-exceptions -fno-rtti -fcheck-new -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -fapple-kext -funroll-loops -ftree-vectorize -msse3 -fprofile-use -mmacosx-version-min=10.6 -fopenmp -flto -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/AppleAC97AudioIntelICH.hmap -Wno-unknown-pragmas -Wno-four-char-constants -Wmost -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/i386 -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources -Wno-format -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH.o0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH_info.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c normal i386 c com.apple.compilers.gcc.4_2
+s473089858.051026
+e473089858.155702
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH_info.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@172"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c473089858#473089858#0(0"0(0#0#164"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c2519298544#1643"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -nostdinc -std=gnu99 -fno-builtin -Wno-trigraphs -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -funroll-loops -ftree-vectorize -msse3 -fprofile-use -mmacosx-version-min=10.6 -fopenmp -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/AppleAC97AudioIntelICH.hmap -Wno-unknown-pragmas -Wno-four-char-constants -Wmost -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/i386 -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources -Wno-format -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH_info.o0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH_info.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s473088699.705019
+e473088699.875077
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH_info.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-force_cpusubtype_ALL'
+oclang: warning: argument unused during compilation: '-fprofile-use'
+lSLF07#2@172"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c473088699#473088699#0(144"clang: warning: argument unused during compilation: '-force_cpusubtype_ALL'clang: warning: argument unused during compilation: '-fprofile-use'0(0#0#164"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c2519298544#1659"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -nostdinc -std=gnu99 -fno-builtin -Wno-trigraphs -force_cpusubtype_ALL -msoft-float -O3 -flto -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -funroll-loops -mmacosx-version-min=10.6 -msse3 -fprofile-use -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/AppleAC97AudioIntelICH.hmap -Wno-unknown-pragmas -Wno-four-char-constants -Wmost -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/i386 -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources -Wno-format -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH_info.o0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH_vers.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_vers.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/Version.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c normal i386 c com.apple.compilers.gcc.4_2
+s473089857.979678
+e473089858.050763
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/Version.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@152"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c473089857#473089858#0(0"0(0#0#144"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c2519298544#1603"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -nostdinc -std=gnu99 -fno-builtin -Wno-trigraphs -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -funroll-loops -ftree-vectorize -msse3 -fprofile-use -mmacosx-version-min=10.6 -fopenmp -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/AppleAC97AudioIntelICH.hmap -Wno-unknown-pragmas -Wno-four-char-constants -Wmost -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/i386 -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources -Wno-format -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/Version.o0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/Version.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s473088699.649844
+e473088699.704717
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/Version.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-force_cpusubtype_ALL'
+oclang: warning: argument unused during compilation: '-fprofile-use'
+lSLF07#2@152"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c473088699#473088699#0(144"clang: warning: argument unused during compilation: '-force_cpusubtype_ALL'clang: warning: argument unused during compilation: '-fprofile-use'0(0#0#144"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c2519298544#1619"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -nostdinc -std=gnu99 -fno-builtin -Wno-trigraphs -force_cpusubtype_ALL -msoft-float -O3 -flto -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -funroll-loops -mmacosx-version-min=10.6 -msse3 -fprofile-use -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/AppleAC97AudioIntelICH.hmap -Wno-unknown-pragmas -Wno-four-char-constants -Wmost -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/i386 -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources -Wno-format -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/Version.o0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/AppleAC97AudioIntelICH.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+s473088741.779631
+e473088742.609361
+r0
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/AppleAC97AudioIntelICH.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@113"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp473088741#473088742#0(0"0(0#0#105"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp2519298544#1621"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fno-exceptions -fno-rtti -fcheck-new -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -fapple-kext -funroll-loops -mtune=G4 -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/AppleAC97AudioIntelICH.hmap -Wno-unknown-pragmas -Wno-four-char-constants -Wmost -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/ppc -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources -Wno-format -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/AppleAC97AudioIntelICH.o2#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/AppleAC97AudioIntelICH.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp normal ppc c++ com.apple.compilers.llvmgcc42
+s473088701.096398
+e473088702.321954
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/AppleAC97AudioIntelICH.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.llvmgcc42
+o/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp: In member function 'virtual void AppleAC97AudioIntelICH::resetACLink(IOOptionBits)':
+o/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp:695: warning: 'IOPanic' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOLib.h:338)
+o/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp:695: warning: 'IOPanic' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOLib.h:338)
+lSLF07#2@113"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp473088701#473088702#0(708"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp: In member function 'virtual void AppleAC97AudioIntelICH::resetACLink(IOOptionBits)':/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp:695: warning: 'IOPanic' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOLib.h:338)/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp:695: warning: 'IOPanic' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOLib.h:338)2(22@137"'IOPanic' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOLib.h:338)473088701#192#258#0(6@105"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp366363762#695#0#695#0#33"'*' is deprecated (declared at *)0(22@137"'IOPanic' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOLib.h:338)473088701#450#258#0(6@105"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp366363762#695#0#695#0#33"'*' is deprecated (declared at *)0(0#0#105"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp2519298544#1632"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fno-exceptions -fno-rtti -fcheck-new -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -fapple-kext -funroll-loops -mtune=G4 -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -flto -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/AppleAC97AudioIntelICH.hmap -Wno-unknown-pragmas -Wno-four-char-constants -Wmost -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/ppc -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources -Wno-format -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/AppleAC97AudioIntelICH.o0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/AppleAC97AudioIntelICH_info.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c normal ppc c com.apple.compilers.gcc.4_2
+s473088742.132109
+e473088742.272220
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/AppleAC97AudioIntelICH_info.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@172"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c473088742#473088742#0(0"0(0#0#164"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c2519298544#1643"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -nostdinc -std=gnu99 -fno-builtin -Wno-trigraphs -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -funroll-loops -mtune=G4 -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/AppleAC97AudioIntelICH.hmap -Wno-unknown-pragmas -Wno-four-char-constants -Wmost -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/ppc -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources -Wno-format -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/AppleAC97AudioIntelICH_info.o0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/AppleAC97AudioIntelICH_info.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c normal ppc c com.apple.compilers.llvmgcc42
+s473088702.040706
+e473088702.180889
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/AppleAC97AudioIntelICH_info.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@172"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c473088702#473088702#0(0"0(0#0#164"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c2519298544#1654"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -nostdinc -std=gnu99 -fno-builtin -Wno-trigraphs -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -funroll-loops -mtune=G4 -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -flto -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/AppleAC97AudioIntelICH.hmap -Wno-unknown-pragmas -Wno-four-char-constants -Wmost -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/ppc -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources -Wno-format -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/AppleAC97AudioIntelICH_info.o0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/Version.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c normal ppc c com.apple.compilers.gcc.4_2
+s473088742.051399
+e473088742.131817
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/Version.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@152"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c473088742#473088742#0(0"0(0#0#144"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c2519298544#1603"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -nostdinc -std=gnu99 -fno-builtin -Wno-trigraphs -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -funroll-loops -mtune=G4 -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/AppleAC97AudioIntelICH.hmap -Wno-unknown-pragmas -Wno-four-char-constants -Wmost -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/ppc -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources -Wno-format -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/Version.o0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/Version.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c normal ppc c com.apple.compilers.llvmgcc42
+s473088701.975163
+e473088702.040391
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/Version.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@152"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c473088701#473088702#0(0"0(0#0#144"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c2519298544#1614"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -nostdinc -std=gnu99 -fno-builtin -Wno-trigraphs -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -funroll-loops -mtune=G4 -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -flto -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/AppleAC97AudioIntelICH.hmap -Wno-unknown-pragmas -Wno-four-char-constants -Wmost -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/ppc -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources -Wno-format -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/Version.o0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s473089855.083174
+e473089857.925784
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp: In function '(static destructors for /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp)':
+o/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp:1678: note: file /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH.gcda not found, execution counts estimated
+lSLF07#2@113"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp473089855#473089857#0(584"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp: In function '(static destructors for /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp)':/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp:1678: note: file /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH.gcda not found, execution counts estimated1(13@212"File /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH.gcda not found, execution counts estimated473089855#253#331#0(6@105"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp473088919#1678#0#1678#0#0"0(0#0#105"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp2519298544#1627"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fno-exceptions -fno-rtti -fcheck-new -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -fapple-kext -funroll-loops -ftree-vectorize -msse3 -fprofile-use -mmacosx-version-min=10.6 -fopenmp -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/AppleAC97AudioIntelICH.hmap -Wno-unknown-pragmas -Wno-four-char-constants -Wmost -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/x86_64 -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources -Wno-format -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH.o0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s473088699.875363
+e473088701.095910
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@113"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp473088699#473088701#0(0"0(0#0#105"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp2519298544#1638"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -nostdinc -fno-builtin -Wno-trigraphs -fno-exceptions -fno-rtti -fcheck-new -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -fapple-kext -funroll-loops -ftree-vectorize -msse3 -fprofile-use -mmacosx-version-min=10.6 -fopenmp -flto -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/AppleAC97AudioIntelICH.hmap -Wno-unknown-pragmas -Wno-four-char-constants -Wmost -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/x86_64 -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources -Wno-format -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH/AppleAC97AudioIntelICH.cpp -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH.o0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH_info.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c normal x86_64 c com.apple.compilers.gcc.4_2
+s473089855.197888
+e473089855.299731
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH_info.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@172"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c473089855#473089855#0(0"0(0#0#164"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c2519298544#1649"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -nostdinc -std=gnu99 -fno-builtin -Wno-trigraphs -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -funroll-loops -ftree-vectorize -msse3 -fprofile-use -mmacosx-version-min=10.6 -fopenmp -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/AppleAC97AudioIntelICH.hmap -Wno-unknown-pragmas -Wno-four-char-constants -Wmost -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/x86_64 -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources -Wno-format -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH_info.o0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH_info.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s473088701.080720
+e473088701.207443
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH_info.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-force_cpusubtype_ALL'
+oclang: warning: argument unused during compilation: '-fprofile-use'
+lSLF07#2@172"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c473088701#473088701#0(144"clang: warning: argument unused during compilation: '-force_cpusubtype_ALL'clang: warning: argument unused during compilation: '-fprofile-use'0(0#0#164"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c2519298544#1665"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -nostdinc -std=gnu99 -fno-builtin -Wno-trigraphs -force_cpusubtype_ALL -msoft-float -O3 -flto -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -funroll-loops -mmacosx-version-min=10.6 -msse3 -fprofile-use -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/AppleAC97AudioIntelICH.hmap -Wno-unknown-pragmas -Wno-four-char-constants -Wmost -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/x86_64 -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources -Wno-format -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_info.c -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH_info.o0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH_vers.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/AppleAC97AudioIntelICH_vers.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/Version.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c normal x86_64 c com.apple.compilers.gcc.4_2
+s473089855.089103
+e473089855.197624
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/Version.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@152"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c473089855#473089855#0(0"0(0#0#144"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c2519298544#1609"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -nostdinc -std=gnu99 -fno-builtin -Wno-trigraphs -fasm-blocks -force_cpusubtype_ALL -msoft-float -O3 -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -funroll-loops -ftree-vectorize -msse3 -fprofile-use -mmacosx-version-min=10.6 -fopenmp -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/AppleAC97AudioIntelICH.hmap -Wno-unknown-pragmas -Wno-four-char-constants -Wmost -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/x86_64 -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources -Wno-format -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/Version.o0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/Version.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s473088701.019183
+e473088701.080447
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/Version.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-force_cpusubtype_ALL'
+oclang: warning: argument unused during compilation: '-fprofile-use'
+lSLF07#2@152"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c473088701#473088701#0(144"clang: warning: argument unused during compilation: '-force_cpusubtype_ALL'clang: warning: argument unused during compilation: '-fprofile-use'0(0#0#144"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c2519298544#1625"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -nostdinc -std=gnu99 -fno-builtin -Wno-trigraphs -force_cpusubtype_ALL -msoft-float -O3 -flto -fno-common -mkernel -finline -fno-keep-inline-functions -DKERNEL -DKERNEL_PRIVATE -DDRIVER_PRIVATE -DAPPLE -DNeXT -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -funroll-loops -mmacosx-version-min=10.6 -msse3 -fprofile-use -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/AppleAC97AudioIntelICH.hmap -Wno-unknown-pragmas -Wno-four-char-constants -Wmost -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/System/Library/Frameworks/Kernel.framework/PrivateHeaders -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/x86_64 -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources -Wno-format -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/DerivedSources/Version.c -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/Version.o0#
+
+CCreateUniversalBinary /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/AppleAC97AudioIntelICH.kext/Contents/MacOS/AppleAC97AudioIntelICH normal "i386 x86_64 ppc"
+r0
+
+CCreateUniversalBinary /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/AppleAC97AudioIntelICH.kext/Contents/MacOS/AppleAC97AudioIntelICH normal "i386 x86_64"
+r0
+
+CCreateUniversalBinary /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/AppleAC97AudioIntelICH.kext/Contents/MacOS/AppleAC97AudioIntelICH normal "x86_64 i386"
+s473089858.249503
+e473089858.267417
+r1
+xCreateUniversalBinary
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/AppleAC97AudioIntelICH.kext/Contents/MacOS/AppleAC97AudioIntelICH
+xnormal
+xx86_64 i386
+lSLF07#2@122"CreateUniversalBinary build/Release/AppleAC97AudioIntelICH.kext/Contents/MacOS/AppleAC97AudioIntelICH normal "x86_64 i386"473089858#473089858#0(0"0(0#0#67"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/x86_64 i3862519298544#561"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    /usr/bin/lipo -create /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH -output /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/AppleAC97AudioIntelICH.kext/Contents/MacOS/AppleAC97AudioIntelICH0#
+
+CLd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH normal i386
+s473089858.155953
+e473089858.249226
+r1
+xLd
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH
+xnormal
+xi386
+lSLF07#2@167"Link /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH473089858#473089858#0(0"0(0#0#0"2519298544#965"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -filelist /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH.LinkFileList -mmacosx-version-min=10.6 -fopenmp -lcpp_kext -fprofile-use -Xlinker -kext -nostdlib -lkmodc++ /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH_info.o -lkmod -lcc_kext -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/i386/AppleAC97AudioIntelICH0#
+
+CLd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/AppleAC97AudioIntelICH normal ppc
+s473088702.322230
+e473088702.425418
+r0
+xLd
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/AppleAC97AudioIntelICH
+xnormal
+xppc
+o/Developer/usr/bin/ld_classic: /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/AppleAC97AudioIntelICH.o bad magic number (not a Mach-O file)
+o/Developer/usr/bin/ld_classic: /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/Version.o bad magic number (not a Mach-O file)
+o/Developer/usr/bin/ld_classic: /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/AppleAC97AudioIntelICH_info.o bad magic number (not a Mach-O file)
+ocollect2: ld returned 1 exit status
+lSLF07#2@166"Link /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/AppleAC97AudioIntelICH473088702#473088702#0(786"/Developer/usr/bin/ld_classic: /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/AppleAC97AudioIntelICH.o bad magic number (not a Mach-O file)/Developer/usr/bin/ld_classic: /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/Version.o bad magic number (not a Mach-O file)/Developer/usr/bin/ld_classic: /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/AppleAC97AudioIntelICH_info.o bad magic number (not a Mach-O file)collect2: ld returned 1 exit statusCommand /Developer/usr/bin/llvm-g++-4.2 failed with exit code 11(4@63"Command /Developer/usr/bin/llvm-g++-4.2 failed with exit code 1473088702#4294967295#0#0(1@0"0(0#0#0"2519298544#966"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/llvm-g++-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -filelist /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/AppleAC97AudioIntelICH.LinkFileList -mmacosx-version-min=10.6 -fopenmp -lcpp_kext -fprofile-use -Xlinker -kext -nostdlib -lkmodc++ /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/AppleAC97AudioIntelICH_info.o -lkmod -lcc_kext -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/ppc/AppleAC97AudioIntelICH1#
+
+CLd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH normal x86_64
+s473089857.926183
+e473089857.979402
+r1
+xLd
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH
+xnormal
+xx86_64
+lSLF07#2@169"Link /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH473089857#473089857#0(0"0(0#0#0"2519298544#973"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -filelist /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH.LinkFileList -mmacosx-version-min=10.6 -fopenmp -lcpp_kext -fprofile-use -Xlinker -kext -nostdlib -lkmodc++ /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH_info.o -lkmod -lcc_kext -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Objects-normal/x86_64/AppleAC97AudioIntelICH0#
+
+CPreprocess /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Preprocessed-Info.plist AppleAC97AudioIntelICH-Info.plist
+s473089854.959549
+e473089855.028555
+r1
+xPreprocess
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Preprocessed-Info.plist
+xAppleAC97AudioIntelICH-Info.plist
+lSLF07#2@132"Preprocess build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Preprocessed-Info.plist AppleAC97AudioIntelICH-Info.plist473089854#473089855#0(0"0(0#0#89"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH-Info.plist2519298544#373"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    /Developer/usr/bin/gcc -E -P -x c -Wno-trigraphs AppleAC97AudioIntelICH-Info.plist -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I. -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Preprocessed-Info.plist0#
+
+CProcessInfoPlistFile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/AppleAC97AudioIntelICH.kext/Contents/Info.plist /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Preprocessed-Info.plist
+s473089855.028846
+e473089855.082648
+r1
+xProcessInfoPlistFile
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/AppleAC97AudioIntelICH.kext/Contents/Info.plist
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Preprocessed-Info.plist
+lSLF07#2@151"Process /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Preprocessed-Info.plist473089855#473089855#0(0"0(0#0#143"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Preprocessed-Info.plist2519298544#395"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    builtin-infoPlistUtility /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioIntelICH.build/Preprocessed-Info.plist -expandbuildsettings -platform macosx -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/AppleAC97AudioIntelICH.kext/Contents/Info.plist0#
+
+CTouch /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/AppleAC97AudioIntelICH.kext
+s473089858.267608
+e473089858.277721
+r1
+xTouch
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/AppleAC97AudioIntelICH.kext
+lSLF07#2@103"Touch /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/AppleAC97AudioIntelICH.kext473089858#473089858#0(0"0(0#0#0"2519298544#183"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    /usr/bin/touch -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/AppleAC97AudioIntelICH.kext0#
+

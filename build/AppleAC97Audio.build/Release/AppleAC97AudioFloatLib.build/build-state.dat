@@ -1,0 +1,430 @@
+TAppleAC97AudioFloatLib
+v7
+r0
+t473089854.928629
+cCheck dependencies
+cCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/AppleAC97AudioEngine.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/Version.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c normal x86_64 c com.apple.compilers.gcc.4_2
+cCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/AppleAC97AudioEngine.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+cLibtool /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/libAppleAC97AudioFloatLib.a normal x86_64
+cCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/Version.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c normal i386 c com.apple.compilers.gcc.4_2
+cLibtool /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/libAppleAC97AudioFloatLib.a normal i386
+cCreateUniversalBinary /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/libAppleAC97AudioFloatLib.a normal "x86_64 i386"
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004D5A274300000000000000EE
+t1297753923
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOBufferMemoryDescriptor.h
+c000000004CC3DE660000000000003246
+t1287904870
+s12870
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOMessage.h
+c000000004CC3DE670000000000000DE0
+t1287904871
+s3552
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOService.h
+c000000004CC3DE67000000000001F49D
+t1287904871
+s128157
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOTypes.h
+c000000004CC3DE6800000000000016C8
+t1287904872
+s5832
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/audio/IOAudioEngine.h
+c000000004CC3F8B7000000000000AC3C
+t1287911607
+s44092
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/audio/IOAudioTypes.h
+c000000004CC3F8B700000000000060BD
+t1287911607
+s24765
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSObject.h
+c000000004CC3DE740000000000003C1D
+t1287904884
+s15389
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp
+c0000000050260CF200000000000019C7
+t1344670962
+s6599
+i<IOKit/audio/IOAudioTypes.h>
+i"AppleAC97AudioEngine.h"
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.h
+c0000000050260CF20000000000001D5F
+t1344670962
+s7519
+i<IOKit/audio/IOAudioEngine.h>
+i<IOKit/audio/IOAudioTypes.h>
+i"IOAC97AudioCodec.h"
+i"IOAC97Controller.h"
+i"IOAC97AudioConfig.h"
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/IOAC97Family/IOAC97AudioCodec.h
+c0000000050260CF20000000000003BC0
+t1344670962
+s15296
+i"IOAC97CodecDevice.h"
+i"IOAC97AudioConfig.h"
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/IOAC97Family/IOAC97AudioConfig.h
+c0000000050260CF200000000000011B7
+t1344670962
+s4535
+i<libkern/c++/OSObject.h>
+i<IOKit/IOBufferMemoryDescriptor.h>
+i"IOAC97Types.h"
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/IOAC97Family/IOAC97CodecDevice.h
+c0000000050260CF20000000000000B8F
+t1344670962
+s2959
+i<IOKit/IOService.h>
+i"IOAC97Types.h"
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/IOAC97Family/IOAC97Controller.h
+c0000000050260CF20000000000000E94
+t1344670962
+s3732
+i<IOKit/IOService.h>
+i"IOAC97Types.h"
+i"IOAC97AudioConfig.h"
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/IOAC97Family/IOAC97Types.h
+c0000000050260CF20000000000002293
+t1344670962
+s8851
+i<IOKit/IOTypes.h>
+i<IOKit/IOMessage.h>
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/AppleAC97AudioFloatLib_vers.c
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c
+c0000000056828FBD00000000000000F4
+t1451397053
+s244
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/AppleAC97AudioEngine.o
+t1451397054
+s36268
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/AppleAC97AudioFloatLib.LinkFileList
+c0000000056828FBD0000000000000139
+t1451397053
+s313
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/AppleAC97AudioFloatLib_vers.o
+t2
+s0
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/Version.o
+t1451397054
+s572
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/libAppleAC97AudioFloatLib.a
+t1451397054
+s38240
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/ppc/AppleAC97AudioEngine.o
+t1451395938
+s38904
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/ppc/AppleAC97AudioFloatLib.LinkFileList
+c0000000056828B5F0000000000000137
+t1451395935
+s311
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/ppc/Version.o
+t1451395937
+s640
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/ppc/libAppleAC97AudioFloatLib.a
+t1451395938
+s40936
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/AppleAC97AudioEngine.o
+t1451397054
+s39788
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/AppleAC97AudioFloatLib.LinkFileList
+c0000000056828FBD000000000000013D
+t1451397053
+s317
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/AppleAC97AudioFloatLib_vers.o
+t2
+s0
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/Version.o
+t1451397053
+s636
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/libAppleAC97AudioFloatLib.a
+t1451397054
+s41824
+
+N/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/libAppleAC97AudioFloatLib.a
+t1451397054
+s80112
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies473089853#473089853#0(0"0(0#1#0"2519298544#0"0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/AppleAC97AudioEngine.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s473089853.655561
+e473089854.902819
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/AppleAC97AudioEngine.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp: In function '(static initializers for /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp)':
+o/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp:186: note: file /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/AppleAC97AudioEngine.gcda not found, execution counts estimated
+lSLF07#2@109"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp473089853#473089854#0(568"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp: In function '(static initializers for /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp)':/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp:186: note: file /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/AppleAC97AudioEngine.gcda not found, execution counts estimated1(13@208"File /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/AppleAC97AudioEngine.gcda not found, execution counts estimated473089854#246#322#0(6@101"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp366363762#186#0#186#0#0"0(0#0#101"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp2519298544#1366"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fno-exceptions -fno-rtti -fpascal-strings -fasm-blocks -O3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -funroll-loops -ftree-vectorize -msse3 -fprofile-use -mmacosx-version-min=10.6 -fopenmp -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/AppleAC97AudioFloatLib.hmap -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/System/Library/Frameworks/Kernel.framework/Headers/bsd -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/i386 -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/AppleAC97AudioEngine.o0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/AppleAC97AudioEngine.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp normal i386 c++ com.apple.compilers.llvmgcc42
+s473088697.400911
+e473088698.395212
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/AppleAC97AudioEngine.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@109"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp473088697#473088698#0(0"0(0#0#101"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp2519298544#1377"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fno-exceptions -fno-rtti -fpascal-strings -fasm-blocks -O3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -funroll-loops -ftree-vectorize -msse3 -fprofile-use -mmacosx-version-min=10.6 -fopenmp -flto -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/AppleAC97AudioFloatLib.hmap -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/System/Library/Frameworks/Kernel.framework/Headers/bsd -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/i386 -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/AppleAC97AudioEngine.o0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/AppleAC97AudioFloatLib_vers.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/AppleAC97AudioFloatLib_vers.c normal i386 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/Version.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c normal i386 c com.apple.compilers.gcc.4_2
+s473089854.810789
+e473089854.889038
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/Version.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@152"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c473089854#473089854#0(0"0(0#0#144"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c2519298544#1379"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -funroll-loops -ftree-vectorize -msse3 -fprofile-use -mmacosx-version-min=10.6 -fopenmp -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/AppleAC97AudioFloatLib.hmap -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/System/Library/Frameworks/Kernel.framework/Headers/bsd -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/i386 -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/Version.o0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/Version.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s473088697.406264
+e473088697.461020
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/Version.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-fprofile-use'
+lSLF07#2@152"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c473088697#473088697#0(68"clang: warning: argument unused during compilation: '-fprofile-use'0(0#0#144"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c2519298544#1395"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O3 -flto -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -funroll-loops -mmacosx-version-min=10.6 -msse3 -fprofile-use -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/AppleAC97AudioFloatLib.hmap -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/System/Library/Frameworks/Kernel.framework/Headers/bsd -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/i386 -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/Version.o0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/ppc/AppleAC97AudioEngine.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp normal ppc c++ com.apple.compilers.gcc.4_2
+s473088736.882098
+e473088738.067367
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/ppc/AppleAC97AudioEngine.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSObject.h:37,
+o                 from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSContainers.h:33,
+o                 from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IORegistryEntry.h:40,
+o                 from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOService.h:44,
+o                 from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/audio/IOAudioEngine.h:30,
+o                 from /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.h:26,
+o                 from /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp:24:
+o/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSMetaClass.h:802: warning: 'apple_kext_compatibility' 2.95 vtable-compatability attribute applies only when compiling a kext
+o/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp: In function '(static initializers for /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp)':
+o/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp:186: note: file /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/ppc/AppleAC97AudioEngine.gcda not found, execution counts estimated
+lSLF07#2@109"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp473088736#473088738#0(1701"In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSObject.h:37,                 from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSContainers.h:33,                 from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IORegistryEntry.h:40,                 from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOService.h:44,                 from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/audio/IOAudioEngine.h:30,                 from /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.h:26,                 from /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp:24:/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSMetaClass.h:802: warning: 'apple_kext_compatibility' 2.95 vtable-compatability attribute applies only when compiling a kext/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp: In function '(static initializers for /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp)':/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp:186: note: file /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/ppc/AppleAC97AudioEngine.gcda not found, execution counts estimated2(22@97"'apple_kext_compatibility' 2.95 vtable-compatability attribute applies only when compiling a kext473088737#914#220#8(7@123"In file included from /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp473088737#4294967295#0#0(6@101"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp366363762#24#0#24#0#0"0(7@121"In file included from /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.h473088737#4294967295#0#0(6@99"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.h366363762#26#0#26#0#0"0(7@131"In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/audio/IOAudioEngine.h473088737#4294967295#0#0(6@109"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/audio/IOAudioEngine.h309604407#30#0#30#0#0"0(7@121"In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOService.h473088737#4294967295#0#0(6@99"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOService.h309597671#44#0#44#0#0"0(7@127"In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IORegistryEntry.h473088737#4294967295#0#0(6@105"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IORegistryEntry.h309597671#40#0#40#0#0"0(7@130"In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSContainers.h473088737#4294967295#0#0(6@108"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSContainers.h309597683#33#0#33#0#0"0(7@126"In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSObject.h473088737#4294967295#0#0(6@104"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSObject.h309597684#37#0#37#0#0"0(13@208"'apple_kext_compatibility' 2.95 vtable-compatability attribute applies only when compiling a kext in /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSMetaClass.h473088737#4294967295#0#0(6@107"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSMetaClass.h309597684#802#0#802#0#0"0(6@107"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSMetaClass.h309597684#802#0#802#0#0"0(13@207"File /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/ppc/AppleAC97AudioEngine.gcda not found, execution counts estimated473088737#1380#321#0(6@101"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp366363762#186#0#186#0#0"0(0#0#101"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp2519298544#1366"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fno-exceptions -fno-rtti -fpascal-strings -fasm-blocks -O3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -funroll-loops -mtune=G4 -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/AppleAC97AudioFloatLib.hmap -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/System/Library/Frameworks/Kernel.framework/Headers/bsd -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/ppc -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/ppc/AppleAC97AudioEngine.o0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/ppc/AppleAC97AudioEngine.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp normal ppc c++ com.apple.compilers.llvmgcc42
+s473088698.718547
+e473088699.587403
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/ppc/AppleAC97AudioEngine.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.llvmgcc42
+oIn file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSObject.h:37,
+o                 from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSContainers.h:33,
+o                 from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IORegistryEntry.h:40,
+o                 from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOService.h:44,
+o                 from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/audio/IOAudioEngine.h:30,
+o                 from /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.h:26,
+o                 from /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp:24:
+o/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSMetaClass.h:802: warning: 'apple_kext_compatibility' 2.95 vtable-compatability attribute applies only when compiling a kext
+lSLF07#2@109"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp473088698#473088699#0(1134"In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSObject.h:37,                 from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSContainers.h:33,                 from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IORegistryEntry.h:40,                 from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOService.h:44,                 from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/audio/IOAudioEngine.h:30,                 from /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.h:26,                 from /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp:24:/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSMetaClass.h:802: warning: 'apple_kext_compatibility' 2.95 vtable-compatability attribute applies only when compiling a kext1(22@97"'apple_kext_compatibility' 2.95 vtable-compatability attribute applies only when compiling a kext473088699#914#220#8(7@123"In file included from /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp473088699#4294967295#0#0(6@101"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp366363762#24#0#24#0#0"0(7@121"In file included from /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.h473088699#4294967295#0#0(6@99"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.h366363762#26#0#26#0#0"0(7@131"In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/audio/IOAudioEngine.h473088699#4294967295#0#0(6@109"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/audio/IOAudioEngine.h309604407#30#0#30#0#0"0(7@121"In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOService.h473088699#4294967295#0#0(6@99"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IOService.h309597671#44#0#44#0#0"0(7@127"In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IORegistryEntry.h473088699#4294967295#0#0(6@105"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/IOKit/IORegistryEntry.h309597671#40#0#40#0#0"0(7@130"In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSContainers.h473088699#4294967295#0#0(6@108"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSContainers.h309597683#33#0#33#0#0"0(7@126"In file included from /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSObject.h473088699#4294967295#0#0(6@104"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSObject.h309597684#37#0#37#0#0"0(13@208"'apple_kext_compatibility' 2.95 vtable-compatability attribute applies only when compiling a kext in /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSMetaClass.h473088699#4294967295#0#0(6@107"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSMetaClass.h309597684#802#0#802#0#0"0(6@107"/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers/libkern/c++/OSMetaClass.h309597684#802#0#802#0#0"0(0#0#101"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp2519298544#1377"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fno-exceptions -fno-rtti -fpascal-strings -fasm-blocks -O3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -funroll-loops -mtune=G4 -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -flto -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/AppleAC97AudioFloatLib.hmap -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/System/Library/Frameworks/Kernel.framework/Headers/bsd -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/ppc -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/ppc/AppleAC97AudioEngine.o0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/ppc/Version.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c normal ppc c com.apple.compilers.gcc.4_2
+s473088736.941722
+e473088737.059349
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/ppc/Version.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@152"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c473088736#473088737#0(0"0(0#0#144"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c2519298544#1379"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -funroll-loops -mtune=G4 -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/AppleAC97AudioFloatLib.hmap -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/System/Library/Frameworks/Kernel.framework/Headers/bsd -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/ppc -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/ppc/Version.o0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/ppc/Version.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c normal ppc c com.apple.compilers.llvmgcc42
+s473088698.722165
+e473088698.783315
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/ppc/Version.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c
+xnormal
+xppc
+xc
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@152"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c473088698#473088698#0(0"0(0#0#144"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c2519298544#1390"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -funroll-loops -mtune=G4 -ftree-vectorize -fprofile-use -mmacosx-version-min=10.6 -fopenmp -flto -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/AppleAC97AudioFloatLib.hmap -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/System/Library/Frameworks/Kernel.framework/Headers/bsd -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/ppc -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/ppc/Version.o0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/AppleAC97AudioEngine.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s473089853.543393
+e473089854.795417
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/AppleAC97AudioEngine.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp: In function '(static initializers for /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp)':
+o/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp:186: note: file /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/AppleAC97AudioEngine.gcda not found, execution counts estimated
+lSLF07#2@109"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp473089853#473089854#0(570"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp: In function '(static initializers for /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp)':/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp:186: note: file /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/AppleAC97AudioEngine.gcda not found, execution counts estimated1(13@210"File /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/AppleAC97AudioEngine.gcda not found, execution counts estimated473089854#246#324#0(6@101"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp366363762#186#0#186#0#0"0(0#0#101"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp2519298544#1372"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fno-exceptions -fno-rtti -fpascal-strings -fasm-blocks -O3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -funroll-loops -ftree-vectorize -msse3 -fprofile-use -mmacosx-version-min=10.6 -fopenmp -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/AppleAC97AudioFloatLib.hmap -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/System/Library/Frameworks/Kernel.framework/Headers/bsd -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/x86_64 -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/AppleAC97AudioEngine.o0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/AppleAC97AudioEngine.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp normal x86_64 c++ com.apple.compilers.llvmgcc42
+s473088697.461299
+e473088698.471819
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/AppleAC97AudioEngine.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvmgcc42
+lSLF07#2@109"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp473088697#473088698#0(0"0(0#0#101"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp2519298544#1383"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/llvm-gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fno-exceptions -fno-rtti -fpascal-strings -fasm-blocks -O3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -funroll-loops -ftree-vectorize -msse3 -fprofile-use -mmacosx-version-min=10.6 -fopenmp -flto -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/AppleAC97AudioFloatLib.hmap -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/System/Library/Frameworks/Kernel.framework/Headers/bsd -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/x86_64 -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioDriver/AppleAC97AudioEngine.cpp -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/AppleAC97AudioEngine.o0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/AppleAC97AudioFloatLib_vers.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/AppleAC97AudioFloatLib_vers.c normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/Version.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c normal x86_64 c com.apple.compilers.gcc.4_2
+s473089853.545894
+e473089853.655287
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/Version.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@152"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c473089853#473089853#0(0"0(0#0#144"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c2519298544#1385"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O3 -isysroot /Developer/SDKs/MacOSX10.6.sdk -funroll-loops -ftree-vectorize -msse3 -fprofile-use -mmacosx-version-min=10.6 -fopenmp -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/AppleAC97AudioFloatLib.hmap -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/System/Library/Frameworks/Kernel.framework/Headers/bsd -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/x86_64 -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/Version.o0#
+
+CCompileC build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/Version.o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+s473088698.472089
+e473088698.509248
+r1
+xCompileC
+xbuild/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/Version.o
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: warning: argument unused during compilation: '-fprofile-use'
+lSLF07#2@152"Compile /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c473088698#473088698#0(68"clang: warning: argument unused during compilation: '-fprofile-use'0(0#0#144"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c2519298544#1401"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O3 -flto -isysroot /Developer/SDKs/MacOSX10.6.sdk -fasm-blocks -funroll-loops -mmacosx-version-min=10.6 -msse3 -fprofile-use -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/AppleAC97AudioFloatLib.hmap -F/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/include -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Kernel.framework/Headers -I/System/Library/Frameworks/Kernel.framework/Headers/bsd -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/x86_64 -I/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources -c /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/DerivedSources/Version.c -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/Version.o0#
+
+CCreateUniversalBinary /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/libAppleAC97AudioFloatLib.a normal "i386 x86_64 ppc"
+s473088738.078516
+e473088738.110309
+r1
+xCreateUniversalBinary
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/libAppleAC97AudioFloatLib.a
+xnormal
+xi386 x86_64 ppc
+lSLF07#2@88"CreateUniversalBinary build/Release/libAppleAC97AudioFloatLib.a normal "i386 x86_64 ppc"473088738#473088738#0(0"0(0#0#71"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/i386 x86_64 ppc2519298544#708"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    /Developer/usr/bin/libtool -static /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/libAppleAC97AudioFloatLib.a /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/libAppleAC97AudioFloatLib.a /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/ppc/libAppleAC97AudioFloatLib.a -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/libAppleAC97AudioFloatLib.a0#
+
+CCreateUniversalBinary /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/libAppleAC97AudioFloatLib.a normal "i386 x86_64"
+s473088478.043384
+e473088478.055939
+r1
+xCreateUniversalBinary
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/libAppleAC97AudioFloatLib.a
+xnormal
+xi386 x86_64
+lSLF07#2@84"CreateUniversalBinary build/Release/libAppleAC97AudioFloatLib.a normal "i386 x86_64"473088478#473088478#0(0"0(0#0#67"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/i386 x86_642519298544#541"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    /Developer/usr/bin/libtool -static /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/libAppleAC97AudioFloatLib.a /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/libAppleAC97AudioFloatLib.a -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/libAppleAC97AudioFloatLib.a0#
+
+CCreateUniversalBinary /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/libAppleAC97AudioFloatLib.a normal "x86_64 i386"
+s473089854.914437
+e473089854.928509
+r1
+xCreateUniversalBinary
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/libAppleAC97AudioFloatLib.a
+xnormal
+xx86_64 i386
+lSLF07#2@84"CreateUniversalBinary build/Release/libAppleAC97AudioFloatLib.a normal "x86_64 i386"473089854#473089854#0(0"0(0#0#67"/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/x86_64 i3862519298544#541"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    /Developer/usr/bin/libtool -static /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/libAppleAC97AudioFloatLib.a /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/libAppleAC97AudioFloatLib.a -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release/libAppleAC97AudioFloatLib.a0#
+
+CLibtool /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/libAppleAC97AudioFloatLib.a normal i386
+s473089854.903086
+e473089854.914154
+r1
+xLibtool
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/libAppleAC97AudioFloatLib.a
+xnormal
+xi386
+lSLF07#2@131"Libtool build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/libAppleAC97AudioFloatLib.a normal i386473089854#473089854#0(0"0(0#0#0"2519298544#631"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/libtool -static -arch_only i386 -syslibroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -filelist /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/AppleAC97AudioFloatLib.LinkFileList -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/i386/libAppleAC97AudioFloatLib.a0#
+
+CLibtool /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/ppc/libAppleAC97AudioFloatLib.a normal ppc
+s473088738.067602
+e473088738.078231
+r1
+xLibtool
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/ppc/libAppleAC97AudioFloatLib.a
+xnormal
+xppc
+lSLF07#2@129"Libtool build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/ppc/libAppleAC97AudioFloatLib.a normal ppc473088738#473088738#0(0"0(0#0#0"2519298544#628"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/libtool -static -arch_only ppc -syslibroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -filelist /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/ppc/AppleAC97AudioFloatLib.LinkFileList -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/ppc/libAppleAC97AudioFloatLib.a0#
+
+CLibtool /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/libAppleAC97AudioFloatLib.a normal x86_64
+s473089854.795741
+e473089854.810498
+r1
+xLibtool
+x/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/libAppleAC97AudioFloatLib.a
+xnormal
+xx86_64
+lSLF07#2@135"Libtool build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/libAppleAC97AudioFloatLib.a normal x86_64473089854#473089854#0(0"0(0#0#0"2519298544#637"    cd /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/Release -filelist /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/AppleAC97AudioFloatLib.LinkFileList -o /Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/build/AppleAC97Audio.build/Release/AppleAC97AudioFloatLib.build/Objects-normal/x86_64/libAppleAC97AudioFloatLib.a0#
+

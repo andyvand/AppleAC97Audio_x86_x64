@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeTarget = 32A4FEB80562C75700D090E7 /* AppleAC97Audio */;
+		addToTargets = (
+		);
+		codeSenseManager = ABCBD7F41C32C08B00CB39F7 /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					252,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					212,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 473088060;
+			PBXWorkspaceStateSaveDate = 473088060;
+		};
+		perUserProjectItems = {
+			ABCBD8241C32C3B800CB39F7 /* PlistBookmark */ = ABCBD8241C32C3B800CB39F7 /* PlistBookmark */;
+			ABCBD8251C32C3B800CB39F7 /* PlistBookmark */ = ABCBD8251C32C3B800CB39F7 /* PlistBookmark */;
+			ABCBD8261C32C3B800CB39F7 /* PlistBookmark */ = ABCBD8261C32C3B800CB39F7 /* PlistBookmark */;
+			ABCBD8271C32C3B800CB39F7 /* PlistBookmark */ = ABCBD8271C32C3B800CB39F7 /* PlistBookmark */;
+			ABCBD8281C32C3B800CB39F7 /* PlistBookmark */ = ABCBD8281C32C3B800CB39F7 /* PlistBookmark */;
+			ABCBD8291C32C3B800CB39F7 /* PlistBookmark */ = ABCBD8291C32C3B800CB39F7 /* PlistBookmark */;
+			ABCBD83A1C32C40000CB39F7 /* PlistBookmark */ = ABCBD83A1C32C40000CB39F7 /* PlistBookmark */;
+			ABCBD8421C32C43600CB39F7 /* PlistBookmark */ = ABCBD8421C32C43600CB39F7 /* PlistBookmark */;
+			ABCBD86E1C32C51B00CB39F7 /* PlistBookmark */ = ABCBD86E1C32C51B00CB39F7 /* PlistBookmark */;
+			ABCBD87A1C32C59B00CB39F7 /* PlistBookmark */ = ABCBD87A1C32C59B00CB39F7 /* PlistBookmark */;
+			ABCBD87B1C32C5C200CB39F7 /* PlistBookmark */ = ABCBD87B1C32C5C200CB39F7 /* PlistBookmark */;
+			ABCBD88F1C32C60300CB39F7 /* PlistBookmark */ = ABCBD88F1C32C60300CB39F7 /* PlistBookmark */;
+			ABCBDC4C1C32C64800CB39F7 /* PlistBookmark */ = ABCBDC4C1C32C64800CB39F7 /* PlistBookmark */;
+			ABCBDC511C32C67800CB39F7 /* PlistBookmark */ = ABCBDC511C32C67800CB39F7 /* PlistBookmark */;
+			ABCBDC5E1C32C69C00CB39F7 /* PlistBookmark */ = ABCBDC5E1C32C69C00CB39F7 /* PlistBookmark */;
+			ABCBDC641C32C6BA00CB39F7 /* PlistBookmark */ = ABCBDC641C32C6BA00CB39F7 /* PlistBookmark */;
+			ABCBDC851C32C72200CB39F7 /* PlistBookmark */ = ABCBDC851C32C72200CB39F7 /* PlistBookmark */;
+			ABCBDC871C32C72700CB39F7 /* PlistBookmark */ = ABCBDC871C32C72700CB39F7 /* PlistBookmark */;
+		};
+		sourceControlManager = ABCBD7F31C32C08B00CB39F7 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2AE45C32122264FF00271E91 /* AppleAC97AudioFloatLib */ = {
+		activeExec = 0;
+	};
+	2AE45C681222693800271E91 /* AppleAC97AudioIntelICH */ = {
+		activeExec = 0;
+	};
+	2AE45C771222696100271E91 /* AppleAC97AudioIntelICH.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 22087}}";
+			sepNavSelRange = "{17969, 51}";
+			sepNavVisRange = "{17041, 1058}";
+			sepNavWindowFrame = "{{38, 418}, {750, 558}}";
+		};
+	};
+	32A4FEB80562C75700D090E7 /* AppleAC97Audio */ = {
+		activeExec = 0;
+	};
+	ABCBD7F31C32C08B00CB39F7 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	ABCBD7F41C32C08B00CB39F7 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	ABCBD8241C32C3B800CB39F7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 2AE45C7F1222699100271E91 /* AppleAC97CodedAD198x-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			OSBundleLibraries,
+			com.apple.kpi.iokit,
+		);
+		name = "/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97CodedAD198x-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	ABCBD8251C32C3B800CB39F7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 2AE45C6A1222693800271E91 /* AppleAC97AudioIntelICH-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			OSBundleLibraries,
+			com.apple.driver.AppleAC97Audio,
+		);
+		name = "/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioIntelICH-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	ABCBD8261C32C3B800CB39F7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 2AE45C611222691000271E91 /* AppleAC97AudioVIA-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			OSBundleLibraries,
+			com.apple.kpi.mach,
+		);
+		name = "/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioVIA-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	ABCBD8271C32C3B800CB39F7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 2AE45C421222682D00271E91 /* AppleAC97AudioAMD-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			OSBundleLibraries,
+			com.apple.kpi.mach,
+		);
+		name = "/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/AppleAC97AudioAMD-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	ABCBD8281C32C3B800CB39F7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 32A4FEC30562C75700D090E7 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	ABCBD8291C32C3B800CB39F7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 32A4FEC30562C75700D090E7 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			OSBundleLibraries,
+			com.apple.kpi.iokit,
+		);
+		name = "/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	ABCBD8341C32C3F700CB39F7 /* AppleAC97CodecAD198x */ = {
+		activeExec = 0;
+	};
+	ABCBD83A1C32C40000CB39F7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 32A4FEC30562C75700D090E7 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			OSBundleLibraries,
+			com.apple.kpi.iokit,
+		);
+		name = "/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	ABCBD8421C32C43600CB39F7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 32A4FEC30562C75700D090E7 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			OSBundleLibraries,
+			com.apple.kpi.iokit,
+		);
+		name = "/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	ABCBD8601C32C50600CB39F7 /* AppleAC97AudioVIA */ = {
+		activeExec = 0;
+	};
+	ABCBD86E1C32C51B00CB39F7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 32A4FEC30562C75700D090E7 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			OSBundleLibraries,
+			com.apple.kpi.iokit,
+		);
+		name = "/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	ABCBD87A1C32C59B00CB39F7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 32A4FEC30562C75700D090E7 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundlePackageType,
+		);
+		name = "/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	ABCBD87B1C32C5C200CB39F7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 32A4FEC30562C75700D090E7 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundlePackageType,
+		);
+		name = "/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	ABCBD88F1C32C60300CB39F7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 32A4FEC30562C75700D090E7 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundlePackageType,
+		);
+		name = "/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	ABCBDC4C1C32C64800CB39F7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 32A4FEC30562C75700D090E7 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundlePackageType,
+		);
+		name = "/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	ABCBDC511C32C67800CB39F7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 32A4FEC30562C75700D090E7 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundlePackageType,
+		);
+		name = "/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	ABCBDC571C32C68D00CB39F7 /* AppleAC97AudioAMD */ = {
+		activeExec = 0;
+	};
+	ABCBDC5E1C32C69C00CB39F7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 32A4FEC30562C75700D090E7 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundlePackageType,
+		);
+		name = "/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	ABCBDC641C32C6BA00CB39F7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 32A4FEC30562C75700D090E7 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundlePackageType,
+		);
+		name = "/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	ABCBDC851C32C72200CB39F7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = ABCBDC6A1C32C6EE00CB39F7 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundlePackageType,
+		);
+		name = "/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	ABCBDC871C32C72700CB39F7 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = ABCBDC6A1C32C6EE00CB39F7 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundlePackageType,
+		);
+		name = "/Users/andyvand/Downloads/AppleAC97Audio_x86_x64-master/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+}

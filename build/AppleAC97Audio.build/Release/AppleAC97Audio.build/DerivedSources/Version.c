@@ -1,0 +1,1 @@
+ const unsigned char AppleAC97AudioVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:AppleAC97Audio  PROJECT:AppleAC97Audio-1.0.0" "\n"; const double AppleAC97AudioVersionNumber __attribute__ ((used)) = (double)1.0;

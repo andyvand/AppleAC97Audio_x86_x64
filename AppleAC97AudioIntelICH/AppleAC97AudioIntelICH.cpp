@@ -692,7 +692,7 @@ void CLASS::resetACLink( IOOptionBits type )
             break;
 
         default:
-            IOPanic("Invalid AC-link reset type\n");
+            panic("Invalid AC-link reset type\n");
     }
 }
 
